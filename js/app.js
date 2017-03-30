@@ -13,11 +13,17 @@ var pers={'nom':nom, 'prenom': prenom, 'age': age};
 	
 agenda.push(pers);	
 	
+$("input").val(" ");
 
 console.log(agenda);
+
+
+$("table").append("<tr><td>"+nom+"</td><td>"+prenom+"</td><td>"+age+"</td></tr>");
+
+
+
 });
-
-
+  
 
 
 
